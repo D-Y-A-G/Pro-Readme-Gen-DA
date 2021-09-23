@@ -51,6 +51,13 @@ inquirer
   ])
   .then(
     async (answers) =>
-      await fs.writeFileSync("README.md", generateReadme(userInput))
+      await fs.writeFileSync("README.md", generateReadme(answers))
   )
   .then(() => console.log("README Successfully Created!"));
+
+////////////////callback function to write README.md file/////////////////////////////
+
+const generatReadme = function () {
+  ///need to add name inside parenthesis for readme.md file to be referenced
+  const readmeDoc = ``; // need to create read me format between ``
+};
