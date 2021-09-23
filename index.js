@@ -42,19 +42,19 @@ inquirer
       type: "checkbox",
       message: "Please choose a license for your project!",
       name: "license",
-      choices: ["APACHE", "BSD", "MIT", "GNU"],
+      choices: ["APACHE", " BSD ", " MIT ", " GNU "],
     },
 
     {
       type: "input",
-      message: "Please add your application features (optional)",
+      message: "Please add your application features (optional):",
       name: "features",
     },
 
     {
       type: "input",
       message: "Enter your GitHub Username:",
-      name: "questions",
+      name: "github",
     },
 
     {
@@ -71,12 +71,12 @@ inquirer
 
 ////////////////function to write README.md file/////////////////////////////
 
-const generateReadme = function (inquire) {
-  const readMe = `#<Project Title>${inquire.title}
+const generateReadme = function (writeFile) {
+  const readMe = `## ${writeFile.title}
 
   ## Project Description
   
-  ${inquire.description}
+  ${writeFile.description}
   
  
   ## Table of Contents
@@ -85,13 +85,13 @@ const generateReadme = function (inquire) {
   
   ## Installation
   
-  ${inquire.installation}
+  ${writeFile.installation}
   
  
   
   ## Usage
   
-  ${inquire.usage}
+  ${writeFile.usage}
   
 
   
@@ -100,13 +100,13 @@ const generateReadme = function (inquire) {
   
   ## Credits
   
-  ${inquire.collaborators}
+  ${writeFile.collaborators}
   
 
   
   ## License
   
-  ${inquire.license}
+  ${writeFile.license}
   
  
   
@@ -120,7 +120,7 @@ const generateReadme = function (inquire) {
   
   ## Features
   
-  ${inquire.features}
+  ${writeFile.features}
  
 
   ## How to contribute
@@ -133,7 +133,10 @@ const generateReadme = function (inquire) {
   
   ## Questions
   
-  For any questions please contact me on GitHub: ${inquire.questions} or email me: ${inquire.email}`;
+  For any questions please contact me on GitHub: ${writeFile.github} or email me: ${writeFile.email}`;
 
   return readMe;
 };
+
+
+/////Need to work on BADGES and formatting README better///////////////
