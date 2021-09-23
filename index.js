@@ -9,7 +9,7 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "What is the name of your Project",
+      message: "What is the name of your Project?",
       name: "title",
     },
 
@@ -60,7 +60,7 @@ inquirer
     {
       type: "input",
       message: "Enter your email address:",
-      name: "future",
+      name: "email",
     },
   ])
   .then(
@@ -71,7 +71,69 @@ inquirer
 
 ////////////////function to write README.md file/////////////////////////////
 
-const generatReadme = function () {
-  ///need to add name inside parenthesis for readme.md file to be referenced
-  const readmeDoc = ``; // need to create read me format between ``
+const generateReadme = function (inquire) {
+  const readMe = `#<Project Title>${inquire.title}
+
+  ## Project Description
+  
+  ${inquire.description}
+  
+ 
+  ## Table of Contents
+  
+  -[Installation](#installation) -[Usage](#usage) -[Credits](#credits) -[License](#license) - [Features](#features) - [Questions](#questions)
+  
+  ## Installation
+  
+  ${inquire.installation}
+  
+ 
+  
+  ## Usage
+  
+  ${inquire.usage}
+  
+
+  
+  To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+  'md ![alt text](assets/images/screenshot.png)'
+  
+  ## Credits
+  
+  ${inquire.collaborators}
+  
+
+  
+  ## License
+  
+  ${inquire.license}
+  
+ 
+  
+  ---
+  
+  ## Badges
+  
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  
+  [shields.io](https://shields.io/)
+  
+  ## Features
+  
+  ${inquire.features}
+ 
+
+  ## How to contribute
+  
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+  
+  ## Tests
+  
+  Write tests for your application and provide examples on how to run them here.
+  
+  ## Questions
+  
+  For any questions please contact me on GitHub: ${inquire.questions} or email me: ${inquire.email}`;
+
+  return readMe;
 };
