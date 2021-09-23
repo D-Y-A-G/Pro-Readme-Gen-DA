@@ -9,43 +9,57 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "What was your motivation?",
-      name: "motivation",
+      message: "What is the name of your Project",
+      name: "title",
     },
 
     {
       type: "input",
-      message: "Why did you build this Project?",
-      name: "reason",
+      message:
+        "Please provide a brief description of project answering WHAT, WHY and HOW?",
+      name: "description",
     },
 
     {
       type: "input",
-      message: "What problem does it solve?",
-      name: "problem",
+      message: "What are the steps required to install your project?",
+      name: "installation",
     },
 
     {
       type: "input",
-      message: "What did you learn?",
-      name: "learned",
+      message: "How is your application used?",
+      name: "usage",
     },
 
     {
       type: "input",
-      message: "What makes your Project stand out?",
-      name: "unique",
+      message: "Add collaborators (optional):",
+      name: "collaborators",
+    },
+
+    {
+      type: "checkbox",
+      message: "Please choose a license for your project!",
+      name: "license",
+      choices: ["APACHE", "BSD", "MIT", "GNU"],
     },
 
     {
       type: "input",
-      message: "What were some challenges you experienced?",
-      name: "challenges",
+      message: "Please add your application features (optional)",
+      name: "features",
     },
 
     {
       type: "input",
-      message: "What features will you implement in the future?",
+      message: "Enter your GitHub Username:",
+      name: "questions",
+    },
+
+    {
+      type: "input",
+      message: "Enter your email address:",
       name: "future",
     },
   ])
@@ -57,7 +71,7 @@ inquirer
 
 ////////////////function to write README.md file/////////////////////////////
 
-// const generatReadme = function () {
-//   ///need to add name inside parenthesis for readme.md file to be referenced
-//   const readmeDoc = ``; // need to create read me format between ``
-// };
+const generatReadme = function () {
+  ///need to add name inside parenthesis for readme.md file to be referenced
+  const readmeDoc = ``; // need to create read me format between ``
+};
