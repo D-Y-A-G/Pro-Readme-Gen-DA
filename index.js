@@ -74,7 +74,6 @@ inquirer
 const generateReadme = function (writeFile) {
   const readMe = `# **🏆${writeFile.title}🏆** </br>
 
-  ---
 
   ## Project Description
   
@@ -84,12 +83,12 @@ const generateReadme = function (writeFile) {
  
   ## Table of Contents
   
-  *[Installation](#installation) 
-  *[Usage](#usage) 
-  *[Credits](#credits) 
-  *[License](#license) 
-  *[Features](#features) 
-  *[Questions](#questions)
+  -[Installation](#installation) 
+  -[Usage](#usage) 
+  -[Credits](#credits) 
+  -[License](#license) 
+  -[Features](#features) 
+  -[Questions](#questions)
 
   ---
   
