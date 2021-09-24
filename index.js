@@ -74,10 +74,13 @@ inquirer
 const generateReadme = function (writeFile) {
   const readMe = `# **🏆${writeFile.title}🏆** </br>
 
+  ---
+
   ## Project Description
   
   ${writeFile.description}
-  
+
+  ---  
  
   ## Table of Contents
   
@@ -87,26 +90,28 @@ const generateReadme = function (writeFile) {
   *[License](#license) 
   *[Features](#features) 
   *[Questions](#questions)
+
+  ---
   
   ## Installation
   
   ${writeFile.installation}
   
- 
+ ---
   
   ## Usage
   
   ${writeFile.usage}
   
+  ---
 
-  
-  To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-  'md ![alt text](assets/images/screenshot.png)'
+  To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath.
   
   ## Credits
 
   ![collaborators](https://img.shields.io/npm/collaborators/inquirer)]
  
+  ---
   
   ${writeFile.collaborators}
   
@@ -125,20 +130,26 @@ const generateReadme = function (writeFile) {
   
   ![followers](https://img.shields.io/github/followers/dnsarce21?style=social)
 
+  ---
 
   ## Features
   
   ${writeFile.features}
- 
+
+  ---
 
   ## How to contribute
   
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
   ![Contributors](https://img.shields.io/github/contributors/dnsarce21/Pro-Readme-Gen-DA)
+
+  ---
   
   ## Tests
   
   Write tests for your application and provide examples on how to run them here.
+
+  ---
   
   ## Questions
   

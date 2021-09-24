@@ -17,7 +17,12 @@ Provide a short description explaining what, why, and how of your project
 
 ## Table of Contents
 
--[Installation](#installation) -[Usage](#usage) -[Credits](#credits) -[License](#license) - [Features](#features) - [Questions](#questions)
+-[Installation](#installation) 
+-[Usage](#usage) 
+-[Credits](#credits) 
+-[License](#license) 
+-[Features](#features) 
+-[Questions](#questions)
 
 ## Installation
 
