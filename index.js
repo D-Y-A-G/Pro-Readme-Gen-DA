@@ -72,7 +72,7 @@ inquirer
 ////////////////function to write README.md file/////////////////////////////
 
 const generateReadme = function (writeFile) {
-  const readMe = `## ${writeFile.title}
+  const readMe = `## Project Name: 🏆${writeFile.title}🏆
 
   ## Project Description
   
@@ -99,16 +99,15 @@ const generateReadme = function (writeFile) {
   'md ![alt text](assets/images/screenshot.png)'
   
   ## Credits
+
+  ![collaborators(https://img.shields.io/npm/collaborators/inquirer)]
   
   ${writeFile.collaborators}
   
-
   
   ## License
   
   ${writeFile.license}
-  
- 
   
   ---
   
@@ -116,8 +115,11 @@ const generateReadme = function (writeFile) {
   
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   
-  [shields.io](https://shields.io/)
+  ![GitHub Stars](https://img.shields.io/github/stars/dnsarce21/Pro-Readme-Gen-DA?style=social)
   
+  !([followers]https://img.shields.io/github/followers/dnsarce21?style=social)
+
+
   ## Features
   
   ${writeFile.features}
@@ -126,6 +128,7 @@ const generateReadme = function (writeFile) {
   ## How to contribute
   
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+  [![Contributors](https://img.shields.io/github/contributors/dnsarce21/Pro-Readme-Gen-DA)]
   
   ## Tests
   
@@ -133,10 +136,9 @@ const generateReadme = function (writeFile) {
   
   ## Questions
   
-  For any questions please contact me on GitHub: ${writeFile.github} or email me: ${writeFile.email}`;
+  For any questions please contact me on GitHub: https://github.com/${writeFile.github} or email me @: ${writeFile.email}`;
 
   return readMe;
 };
-
 
 /////Need to work on BADGES and formatting README better///////////////
