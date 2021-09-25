@@ -1,7 +1,9 @@
 /////////setup required variables/////////////
 
 const inquirer = require("inquirer");
+
 const fs = require("fs");
+
 const apache =
   "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 const mit =
@@ -144,8 +146,6 @@ const generateReadme = function (writeFile) {
     `
   
   ---
-
-  To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath.
   
   ## Credits
   

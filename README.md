@@ -1,10 +1,10 @@
-# **🏆README🏆** </br>
+# **🏆README Generator🏆** </br>
 
 
   ## Project Description
   
   ```md
-  ncoicwnrpociw
+  ckijcnaprwc
   ```
 
   ---  
@@ -31,7 +31,7 @@
   ## Installation
   
   ```md
-  \frwpofjrwpfjrw
+  cjrwnconwr
   ```
   
  ---
@@ -39,26 +39,26 @@
   ## Usage
   
   ```md
-  fwroifjnrwiopnrw
+  cownowcwor
   ```
   
   ---
 
-  To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath.
+ 
   
   ## Credits
   
   ![collaborators](https://img.shields.io/npm/collaborators/inquirer)
 
   ```md
-  fwnppmfpwr
+  cwrpcimw
   ```
   
   
   ## License
 
   ```md  
-  Apache, BSD , MIT, GNU 
+  Apache 2.0, BSD 3, GNU v3 
   ```
   
   ---
@@ -77,7 +77,7 @@
   ## Features
   
   ```md
-  r3ijoj3ri3
+  PSmkfnrw
   ```
 
   ---
@@ -89,7 +89,7 @@
   ![Contributors](https://img.shields.io/github/contributors/dnsarce21/Pro-Readme-Gen-DA)
 
   ```md
-  f3kfm3fkm3
+  dkermcnprvn
   ```
   
   ---
