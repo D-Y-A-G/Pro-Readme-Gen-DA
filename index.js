@@ -7,7 +7,9 @@ const apache =
 const mit =
   "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
 const gnu =
-  "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"; 
+  "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+const bsd =
+  "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
 
 ///////////Set questions for README with inquirer and .then to get answers///////////////
 
@@ -48,13 +50,19 @@ inquirer
       type: "checkbox",
       message: "Please choose a license for your project!",
       name: "license",
-      choices: ["Apache", " BSD ", " MIT", " GNU "],
+      choices: ["Apache 2.0", " BSD 3", " GNU v3 ", " MIT"],
     },
 
     {
       type: "input",
       message: "Please add your application features (optional):",
       name: "features",
+    },
+
+    {
+      type: "input",
+      message: "How to contribute to project?",
+      name: "contribute",
     },
 
     {
@@ -107,6 +115,8 @@ const generateReadme = function (writeFile) {
 
   -[Features](#features) 
 
+  -[Contribute](#contribute)
+
   -[Questions](#questions)
 
   ---
@@ -138,15 +148,9 @@ const generateReadme = function (writeFile) {
   To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath.
   
   ## Credits
-  ` +
-    "```md" +
-    `
-  ![collaborators](https://img.shields.io/npm/collaborators/inquirer)
-  ` +
-    "```" +
-    `
-  ---
   
+  ![collaborators](https://img.shields.io/npm/collaborators/inquirer)
+
   ` +
     "```md" +
     `
@@ -196,6 +200,14 @@ const generateReadme = function (writeFile) {
  
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
   ![Contributors](https://img.shields.io/github/contributors/dnsarce21/Pro-Readme-Gen-DA)
+
+  ` +
+    "```md" +
+    `
+  ${writeFile.contribute}
+  ` +
+    "```" +
+    `
   
   ---
   
