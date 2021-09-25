@@ -83,11 +83,16 @@ const generateReadme = function (writeFile) {
  
   ## Table of Contents
   
-  -[Installation](#installation) 
+  -[Installation](#installation)
+
   -[Usage](#usage) 
+
   -[Credits](#credits) 
+
   -[License](#license) 
+
   -[Features](#features) 
+
   -[Questions](#questions)
 
   ---
@@ -152,7 +157,11 @@ const generateReadme = function (writeFile) {
   
   ## Questions
   
-  🥇For any questions please contact me on GitHub: https://github.com/${writeFile.github} or email me @: ${writeFile.email}`;
+  🥇For any questions please contact me on
+  
+  GitHub: https://github.com/${writeFile.github} 
+  
+  email me @: ${writeFile.email}`;
 
   return readMe;
 };
