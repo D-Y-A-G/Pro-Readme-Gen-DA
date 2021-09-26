@@ -1,4 +1,4 @@
-# **🏆README GENERATOR🏆** </br>
+# **✨README Generator**✨</br>
 
   [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0) 
   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -6,15 +6,15 @@
   [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
-  ## **Project Description**
+  ## **⚡Project Description**
   
   ```md
-  ivoifjvodjvodsjvposvjvasvnojsv
+  An application that helps users generate a high quality README document after answering a series of questions that are prompted for the user after running application. This helps developers focus on their project.
   ```
 
   ---  
  
-  ## **Table of Contents**
+  ## **🔎Table of Contents**
 
   
   -[Installation](#installation)
@@ -33,32 +33,32 @@
 
   ---
   
-  ## **Installation**
+  ## **🛠️Installation**
   
   ```md
-  vsovnaosvnlavnlhldsiubvisaubv
+  To install get files from repo and run program on terminal with node index.js - program uses inquirer npm - init - node
   ```
   
  ---
   
-  ## **Usage**
+  ## **💻Usage**
   
   ```md
-  vsovbusivbaivnslvnofanvror
+  Application starts by running node index.js on terminal then user is presented with questions. Once user answers all questions a README file is created.
   ```
   
   ---
   
-  ## **Credits**
+  ## **🏆Credits**
   
   ![collaborators](https://img.shields.io/npm/collaborators/inquirer)
 
   ```md
-  corncoscnoaiwnrojpijpsfjpfsj
+  Myself
   ```
   
   
-  ## **License**
+  ## **©️License**
 
   ```md  
   Apache 2.0, BSD 3, GNU v3 , MIT
@@ -77,34 +77,34 @@
  
   ---
 
-  ## **Features**
+  ## **📑Features**
   
   ```md
-  hauovhsohvohvvosahvpoahposihjdpvoisajpvjsa
+  Quick and easy README generator.
   ```
 
   ---
 
-  ## **Contribute**
+  ## **🎭Contribute**
   
  
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
   ![Contributors](https://img.shields.io/github/contributors/dnsarce21/Pro-Readme-Gen-DA)
 
   ```md
-  vesfbemsovhe0ij-evj0ejvi0emjvpevev
+  To contribute you can make pull request to check for errors or bugs and improve formatting for README doc.
   ```
   
   ---
   
-  ## **Tests**
+  ## **🚧Tests**
   
   ```md
   Write tests for your application and provide examples on how to run them here.
   ```
   ---
   
-  ## **Questions**
+  ## **💬Questions**
 
   ```md
   🥇For any questions please contact me on:

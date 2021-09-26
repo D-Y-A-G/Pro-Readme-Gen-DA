@@ -91,7 +91,7 @@ inquirer
 
 const generateReadme = function (writeFile) {
   const readMe =
-    `# **🏆${writeFile.title}🏆** </br>
+    `# **✨${writeFile.title}**✨</br>
 
   [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0) 
   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -99,7 +99,7 @@ const generateReadme = function (writeFile) {
   [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
-  ## **Project Description**
+  ## **⚡Project Description**
   
   ` +
     "```md" +
@@ -111,7 +111,7 @@ const generateReadme = function (writeFile) {
 
   ---  
  
-  ## **Table of Contents**
+  ## **🔎Table of Contents**
 
   
   -[Installation](#installation)
@@ -130,7 +130,7 @@ const generateReadme = function (writeFile) {
 
   ---
   
-  ## **Installation**
+  ## **🛠️Installation**
   
   ` +
     "```md" +
@@ -142,7 +142,7 @@ const generateReadme = function (writeFile) {
   
  ---
   
-  ## **Usage**
+  ## **💻Usage**
   
   ` +
     "```md" +
@@ -154,7 +154,7 @@ const generateReadme = function (writeFile) {
   
   ---
   
-  ## **Credits**
+  ## **🏆Credits**
   
   ![collaborators](https://img.shields.io/npm/collaborators/inquirer)
 
@@ -167,7 +167,7 @@ const generateReadme = function (writeFile) {
     `
   
   
-  ## **License**
+  ## **©️License**
 
   ` +
     "```md" +
@@ -190,7 +190,7 @@ const generateReadme = function (writeFile) {
  
   ---
 
-  ## **Features**
+  ## **📑Features**
   
   ` +
     "```md" +
@@ -202,7 +202,7 @@ const generateReadme = function (writeFile) {
 
   ---
 
-  ## **Contribute**
+  ## **🎭Contribute**
   
  
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
@@ -218,7 +218,7 @@ const generateReadme = function (writeFile) {
   
   ---
   
-  ## **Tests**
+  ## **🚧Tests**
   
   ` +
     "```md" +
@@ -229,7 +229,7 @@ const generateReadme = function (writeFile) {
     `
   ---
   
-  ## **Questions**
+  ## **💬Questions**
 
   ` +
     "```md" +
