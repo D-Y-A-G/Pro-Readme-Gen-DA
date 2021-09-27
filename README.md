@@ -100,7 +100,7 @@
   ## **🚧Tests**
   
   ```md
-  Link to video demo: https://watch.screencastify.com/v/o6vwbzFPZVlulUOBsPiU
+  [Link to video Demo](https://watch.screencastify.com/v/o6vwbzFPZVlulUOBsPiU)
   ```
   ---
   
