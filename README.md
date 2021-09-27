@@ -99,9 +99,10 @@
   
   ## **🚧Tests**
   
-  ```md
-  Link to video Demo(https://watch.screencastify.com/v/o6vwbzFPZVlulUOBsPiU)
-  ```
+  
+  [Video Demo of Application](https://watch.screencastify.com/v/o6vwbzFPZVlulUOBsPiU)
+
+ 
   ---
   
   ## **💬Questions**
